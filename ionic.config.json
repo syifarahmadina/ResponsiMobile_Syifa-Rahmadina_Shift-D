@@ -1,0 +1,7 @@
+{
+  "name": "katalogmainanandy",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "vue-vite"
+}
