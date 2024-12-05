@@ -44,7 +44,7 @@ Proses CRUD di `HomePage.vue` ini melibatkan operasi untuk **Create** (Membuat),
 
 
 
-2. **Create (Membuat Mainan Baru)**:
+### 2. **Create (Membuat Mainan Baru)**:
 
    - Ketika tombol "Add" (`ion-fab-button`) diklik, sebuah modal form (`InputModal`) dibuka untuk menginput data mainan baru.
      
@@ -60,7 +60,7 @@ Proses CRUD di `HomePage.vue` ini melibatkan operasi untuk **Create** (Membuat),
 
 
 
-3. **Update (Memperbarui Mainan yang Ada)**:
+### 3. **Update (Memperbarui Mainan yang Ada)**:
 
    
    - Ketika pengguna menggeser item mainan (menggunakan `ion-item-sliding`), fungsi `handleEdit` akan dipanggil.
@@ -72,7 +72,7 @@ Proses CRUD di `HomePage.vue` ini melibatkan operasi untuk **Create** (Membuat),
    - Ketika pengguna mengirimkan formulir, fungsi `handleSubmit` akan memperbarui mainan yang ada (jika `editingId` diset) atau membuat mainan baru.
 
  
- 4. **Delete (Menghapus Mainan)**:
+### 4. **Delete (Menghapus Mainan)**:
     
    - Ketika pengguna menggeser untuk membuka opsi hapus, fungsi `handleDelete` akan dipanggil.
      
